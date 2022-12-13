@@ -1,0 +1,41 @@
+{
+  "name": "golden_hour",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.17.1",
+    "@types/node": "^18.11.13",
+    "@types/styled-components": "^5.1.26",
+    "bootstrap": "^5.2.3",
+    "ip-regex": "^5.0.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "styled": "^1.0.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  },
+  "description": "Finding the golden hour for that perfect sunset... or sunraise for those early birds.",
+  "main": "index.js",
+  "keywords": [
+    "Golden",
+    "Hour"
+  ],
+  "author": "Preston Phan",
+  "license": "ISC"
+}
